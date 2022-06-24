@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ebfb1c27.css",
+    "main.js": "/static/js/main.fc1155ca.js",
+    "static/media/linux.svg": "/static/media/linux.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
+    "static/media/logo-gradient.png": "/static/media/logo-gradient.215dbb6b3152cfebc768.png",
+    "static/media/postgresql.svg": "/static/media/postgresql.7bc394e86ea1f692d59a3d484ad156af.svg",
+    "static/media/docker.svg": "/static/media/docker.1d41320cb0101dbbc6fe182abd590263.svg",
+    "static/media/react.svg": "/static/media/react.4e0c97009b885bfa75c5412262a46f5f.svg",
+    "static/media/python.svg": "/static/media/python.34ed02aa0d1dcb192508fbe1868770b9.svg",
+    "static/media/bootstrap.svg": "/static/media/bootstrap.417a164edcfb13f773b7855c11a385f8.svg",
+    "static/media/unity.svg": "/static/media/unity.4f2def748c3bd7160fd63ac4cce14065.svg",
+    "static/media/javascript.svg": "/static/media/javascript.bacc3387f463f5b56f433827347c6155.svg",
+    "static/media/django.svg": "/static/media/django.9f8ab869da6b30449b8edbd03ac709cd.svg",
+    "static/media/csharp.svg": "/static/media/csharp.4b8080ff785d7bd4f1b95178568e9ba1.svg",
+    "static/media/css.svg": "/static/media/css.39769a8bd378bf410d6b381a8d88fa35.svg",
+    "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
+    "index.html": "/index.html",
+    "main.ebfb1c27.css.map": "/static/css/main.ebfb1c27.css.map",
+    "main.fc1155ca.js.map": "/static/js/main.fc1155ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ebfb1c27.css",
+    "static/js/main.fc1155ca.js"
+  ]
+}
