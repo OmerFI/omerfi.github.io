@@ -116,3 +116,131 @@ main .tech-stack .icons .icon {
   align-items: center;
   justify-content: center;
 }
+
+/* Projects */
+
+main .projects .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4rem;
+  font-family: "Poppins", sans-serif;
+}
+
+main .projects .title .highlighted {
+  font-weight: 700;
+  color: #cccccc;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+main .projects .title .light {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #a7a7a7;
+}
+
+main .projects .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-gap: 2rem; */
+  row-gap: 2rem;
+  /* padding: 2rem 0; */
+  margin-bottom: 5rem;
+}
+
+main .projects .project {
+  background: #363636;
+  box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  width: 21.5rem;
+  height: 31.5rem;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+main .projects .project:nth-of-type(1),
+main .projects .project:nth-of-type(4) {
+  justify-self: end;
+}
+
+main .projects .project:nth-of-type(3),
+main .projects .project:nth-of-type(6) {
+  justify-self: start;
+}
+
+main .projects .project > img {
+  width: 100%;
+}
+
+main .projects .project > div {
+  flex-grow: 1;
+}
+
+main .projects .project-details {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem 1.5rem;
+}
+
+main .projects .project-name {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #cccccc;
+  margin-bottom: 1rem;
+}
+
+main .projects .project-description {
+  font-weight: 300;
+  font-size: 1rem;
+  color: #cccccc;
+  flex-grow: 1;
+}
+
+main .projects .project-tech-stack {
+  font-weight: 300;
+  color: #cccccc;
+  font-size: 0.85rem;
+}
+
+main .projects .project-tech-stack > span {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+main .projects .links {
+  display: flex;
+  margin-top: 0.75rem;
+}
+
+main .projects .links > div:nth-of-type(2) {
+  justify-self: end;
+  margin-left: auto;
+}
+
+main .projects .links > a {
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+main .projects .links p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+main .projects .view-code {
+  flex-grow: 1;
+  margin-left: 2.5rem;
+  margin-right: 10px;
+  justify-content: end;
+}
+
+.disabled {
+  opacity: 0%;
+}
