@@ -246,7 +246,6 @@ main .projects .view-code {
 }
 
 @media (max-width: 1200px) {
-
   main .tech-stack .icons {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -264,7 +263,6 @@ main .projects .view-code {
 }
 
 @media (max-width: 768px) {
-
   main .about {
     display: flex;
     flex-direction: column-reverse;
