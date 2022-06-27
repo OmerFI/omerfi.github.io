@@ -1,9 +1,30 @@
+import headerIcon from "../images/header-icon.svg";
 import logo from "../images/logo-gradient.png";
+import { useState } from "react";
 
 const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header>
       <img src={logo} className="logo" alt="logo" />
+      <img
+        src={headerIcon}
+        alt="header-icon"
+        className="header-icon"
+        onClick={toggleMenu}
+      />
+      <div className={isMenuOpen ? "header-navs" : "header-navs d-none"}>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#tech-stack">Tech Stack</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
       <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>

@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #191919;
   max-width: 1200px;
@@ -17,6 +21,26 @@ body {
 header {
   padding: 20px 0;
   display: flex;
+  flex-wrap: wrap;
+}
+
+header img.header-icon {
+  display: none;
+}
+
+header .header-navs {
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 100%;
+  font-weight: 500;
+}
+
+header .header-navs > a {
+  text-decoration: none;
+  color: #a7a7a7;
+  margin-bottom: 0.3rem;
 }
 
 header img.logo {
@@ -245,6 +269,20 @@ main .projects .view-code {
   opacity: 0%;
 }
 
+.d-none {
+  display: none !important;
+}
+
+@media (max-width: 1300px) {
+  header {
+    padding: 20px 2rem;
+  }
+
+  main .about {
+    padding: 6rem 2rem;
+  }
+}
+
 @media (max-width: 1200px) {
   main .tech-stack .icons {
     grid-template-columns: repeat(3, 1fr);
@@ -262,12 +300,36 @@ main .projects .view-code {
   }
 }
 
+@media (min-width: 769px) {
+  header .header-navs {
+    display: none !important;
+  }
+}
+
 @media (max-width: 768px) {
+  header nav,
+  header .nav-icons {
+    display: none;
+  }
+
+  header .header-navs > a {
+    text-decoration: none;
+    color: #a7a7a7;
+    margin-bottom: 0.2rem;
+  }
+
+  header img.header-icon {
+    display: initial;
+    margin-left: auto;
+    cursor: pointer;
+  }
+
   main .about {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     padding: 2.5rem;
+    margin-bottom: 70px;
   }
 
   main .about .text {
