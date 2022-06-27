@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.95b473ab.css",
+    "main.css": "/static/css/main.cd538510.css",
     "main.js": "/static/js/main.a3cf1ffc.js",
     "static/media/linux.svg": "/static/media/linux.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
     "static/media/dedektistanbul.png": "/static/media/dedektistanbul.d6461de5b15ac2bc0959.png",
@@ -25,11 +25,11 @@
     "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
     "index.html": "/index.html",
     "static/media/header-icon.svg": "/static/media/header-icon.f6110e238c476a04129a289d94d5aafa.svg",
-    "main.95b473ab.css.map": "/static/css/main.95b473ab.css.map",
+    "main.cd538510.css.map": "/static/css/main.cd538510.css.map",
     "main.a3cf1ffc.js.map": "/static/js/main.a3cf1ffc.js.map"
   },
   "entrypoints": [
-    "static/css/main.95b473ab.css",
+    "static/css/main.cd538510.css",
     "static/js/main.a3cf1ffc.js"
   ]
 }
