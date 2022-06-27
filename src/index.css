@@ -113,7 +113,7 @@ main .tech-stack {
   display: flex;
   flex-direction: column;
   padding: 10px 0;
-  margin-bottom: 100px; /* to make space for the footer, TODO: delete this */
+  margin-bottom: 100px;
 }
 
 main .tech-stack .title {
@@ -271,6 +271,90 @@ main .projects .view-code {
   margin-left: 2.5rem;
   margin-right: 10px;
   justify-content: end;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3.5rem;
+  font-size: 0.95em;
+}
+
+footer .contact {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0.1rem;
+}
+
+footer .contact img.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+footer .contact > a {
+  margin-left: auto;
+  margin-right: 2rem;
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+  color: #a7a7a7;
+}
+
+footer .contact > a:hover {
+  color: #cccccc;
+}
+
+footer .contact .nav-icons a {
+  margin-right: 0.75rem;
+}
+
+footer .contact .nav-icons svg:hover {
+  fill: #cccccc;
+}
+
+footer .footer-nav {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-nav nav {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+footer .footer-nav nav a {
+  text-decoration: none;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  color: #a7a7a7;
+  margin-right: 2.5rem;
+}
+
+footer .footer-nav nav a:hover {
+  color: #cccccc;
+}
+
+footer .footer-nav p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #a7a7a7;
+  text-align: right;
+}
+
+footer .footer-nav p span {
+  background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  mix-blend-mode: normal;
+}
+
+footer .divider {
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border: 2px solid #42446e;
 }
 
 .disabled {
