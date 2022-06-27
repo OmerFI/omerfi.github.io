@@ -63,9 +63,17 @@ header nav a {
   margin-right: 2.5rem;
 }
 
+header nav a:hover {
+  color: #cccccc;
+}
+
 header .nav-icons {
   display: flex;
   align-items: center;
+}
+
+header .nav-icons svg:hover {
+  fill: #cccccc;
 }
 
 header .nav-icons a {
@@ -316,6 +324,10 @@ main .projects .view-code {
     text-decoration: none;
     color: #a7a7a7;
     margin-bottom: 0.2rem;
+  }
+
+  header .header-navs > a:hover {
+    color: #cccccc;
   }
 
   header img.header-icon {
