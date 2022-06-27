@@ -456,4 +456,42 @@ footer .divider {
   main .projects .project:nth-of-type(6) {
     justify-self: center;
   }
+
+  footer .contact {
+    /* flex-wrap: wrap; */
+    display: grid;
+    grid-template-areas:
+      "logo mail"
+      "logo nav-icons";
+  }
+
+  footer .contact img.logo {
+    grid-area: logo;
+  }
+
+  footer .contact > a {
+    margin-right: 0;
+    grid-area: mail;
+  }
+
+  footer .contact .nav-icons {
+    display: flex;
+    justify-content: end;
+    margin-top: 0.5rem;
+    grid-area: nav-icons;
+  }
+
+  footer .contact .nav-icons a {
+    margin-right: 0;
+    margin-left: 0.75rem;
+  }
+
+  footer .footer-nav nav {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  footer .footer-nav nav a {
+    margin-bottom: 0.25rem;
+  }
 }
