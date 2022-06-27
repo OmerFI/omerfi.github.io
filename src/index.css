@@ -149,8 +149,6 @@ main .tech-stack .icons .icon {
   justify-content: center;
 }
 
-/* Projects */
-
 main .projects .title {
   display: flex;
   flex-direction: column;
@@ -175,9 +173,7 @@ main .projects .title .light {
 main .projects .content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* grid-gap: 2rem; */
   row-gap: 2rem;
-  /* padding: 2rem 0; */
   margin-bottom: 5rem;
 }
 
@@ -458,7 +454,6 @@ footer .divider {
   }
 
   footer .contact {
-    /* flex-wrap: wrap; */
     display: grid;
     grid-template-areas:
       "logo mail"
@@ -476,7 +471,7 @@ footer .divider {
 
   footer .contact .nav-icons {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     margin-top: 0.5rem;
     grid-area: nav-icons;
   }
