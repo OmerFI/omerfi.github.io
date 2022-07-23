@@ -61,6 +61,7 @@ header nav a {
   font-weight: 500;
   color: #a7a7a7;
   margin-right: 2.5rem;
+  transition: 250ms ease;
 }
 
 header nav a:hover {
@@ -70,6 +71,10 @@ header nav a:hover {
 header .nav-icons {
   display: flex;
   align-items: center;
+}
+
+header .nav-icons svg {
+  transition: 250ms ease;
 }
 
 header .nav-icons svg:hover {
@@ -294,6 +299,7 @@ footer .contact > a {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   color: #a7a7a7;
+  transition: 250ms ease;
 }
 
 footer .contact > a:hover {
@@ -302,6 +308,10 @@ footer .contact > a:hover {
 
 footer .contact .nav-icons a {
   margin-right: 0.75rem;
+}
+
+footer .contact .nav-icons svg {
+  transition: 250ms ease;
 }
 
 footer .contact .nav-icons svg:hover {
@@ -326,6 +336,7 @@ footer .footer-nav nav a {
   font-weight: 500;
   color: #a7a7a7;
   margin-right: 2.5rem;
+  transition: 250ms ease;
 }
 
 footer .footer-nav nav a:hover {
