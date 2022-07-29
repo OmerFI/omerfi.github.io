@@ -1,5 +1,5 @@
-import chain from "../images/link-chain.svg";
-import github from "../images/link-github.svg";
+import { ReactComponent as Chain} from "../images/link-chain.svg";
+import { ReactComponent as GitHub} from "../images/link-github.svg";
 
 const Project = ({
   imgSrc,
@@ -33,7 +33,7 @@ const Project = ({
             rel="noopener noreferrer"
             href={livePreviewLink}
           >
-            <img src={chain} width="20" height="20" alt="link-chain" />
+            <Chain width="20" height="20" alt="Chain Icon" />
             <p>Live Preview</p>
           </a>
           <a
@@ -42,7 +42,7 @@ const Project = ({
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={github} width="20" height="20" alt="link-github" />
+            <GitHub width="20" height="20" alt="GitHub Icon" />
             <p>View Code</p>
           </a>
         </div>
