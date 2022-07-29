@@ -297,7 +297,7 @@ footer .contact img.logo {
   height: 2.5rem;
 }
 
-footer .contact > a {
+footer .contact .mail {
   margin-left: auto;
   margin-right: 2rem;
   text-decoration: none;
@@ -307,7 +307,7 @@ footer .contact > a {
   transition: 250ms ease;
 }
 
-footer .contact > a:hover {
+footer .contact .mail:hover {
   color: #cccccc;
 }
 
@@ -476,11 +476,11 @@ footer .divider {
       "logo nav-icons";
   }
 
-  footer .contact img.logo {
+  footer .contact .logo-a {
     grid-area: logo;
   }
 
-  footer .contact > a {
+  footer .contact .mail {
     margin-right: 0;
     grid-area: mail;
   }

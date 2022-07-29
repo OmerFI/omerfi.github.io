@@ -11,7 +11,9 @@ const Header = () => {
 
   return (
     <header>
-      <img src={logo} className="logo" alt="logo" />
+      <a href="#about">
+        <img src={logo} className="logo" alt="logo" />
+      </a>
       <HeaderIcon
         className="header-icon"
         alt="Hamburger Icon"

@@ -4,8 +4,11 @@ const Footer = () => {
   return (
     <footer>
       <div className="contact" id="contact">
+        <a href="#about" className="logo-a">
+          
         <img src={logo} className="logo" alt="logo" />
-        <a href="mailto:omerfi@pyforum.tech">omerfi@pyforum.tech</a>
+        </a>
+        <a href="mailto:omerfi@pyforum.tech" className="mail">omerfi@pyforum.tech</a>
         <div className="nav-icons">
           <a
             href="https://github.com/OmerFI"
