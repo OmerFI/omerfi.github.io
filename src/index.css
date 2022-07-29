@@ -91,6 +91,10 @@ main .about {
   padding: 6rem 0;
 }
 
+main .about > * {
+  transition: 1s;
+}
+
 main .about img {
   justify-self: end;
   border-radius: 100%;
@@ -279,6 +283,7 @@ footer {
   flex-direction: column;
   padding: 0 3.5rem;
   font-size: 0.95em;
+  transition: 250ms;
 }
 
 footer .contact {
@@ -498,6 +503,12 @@ footer .divider {
   }
 
   footer .footer-nav nav a {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.35rem;
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    padding: 0 2rem;
   }
 }
