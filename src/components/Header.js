@@ -1,4 +1,4 @@
-import headerIcon from "../images/header-icon.svg";
+import { ReactComponent as HeaderIcon } from "../images/header-icon.svg";
 import logo from "../images/logo-gradient.png";
 import { useState } from "react";
 
@@ -12,12 +12,12 @@ const Header = () => {
   return (
     <header>
       <img src={logo} className="logo" alt="logo" />
-      <img
-        src={headerIcon}
-        alt="header-icon"
+      <HeaderIcon
         className="header-icon"
+        alt="Hamburger Icon"
         onClick={toggleMenu}
       />
+
       <div className={isMenuOpen ? "header-navs" : "header-navs d-none"}>
         <a href="#home">Home</a>
         <a href="#about">About</a>

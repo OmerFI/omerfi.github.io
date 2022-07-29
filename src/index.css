@@ -24,7 +24,7 @@ header {
   flex-wrap: wrap;
 }
 
-header img.header-icon {
+header .header-icon {
   display: none;
 }
 
@@ -426,7 +426,7 @@ footer .divider {
     color: #cccccc;
   }
 
-  header img.header-icon {
+  header .header-icon {
     display: initial;
     margin-left: auto;
     cursor: pointer;
