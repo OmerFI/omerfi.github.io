@@ -20,40 +20,64 @@ const TechStack = () => {
       </div>
       <div className="icons">
         <div className="icon python">
-          <Python width="72px" alt="Python Icon" />
+          <div className="tooltip" data-tooltip="Python">
+            <Python width="72px" alt="Python Icon" />
+          </div>
         </div>
         <div className="icon django">
-          <Django width="72px" alt="Django Icon" />
+          <div className="tooltip" data-tooltip="Django">
+            <Django width="72px" alt="Django Icon" />
+          </div>
         </div>
         <div className="icon html">
-          <Html width="72px" alt="Html Icon" />
+          <div className="tooltip" data-tooltip="HTML">
+            <Html width="72px" alt="Html Icon" />
+          </div>
         </div>
         <div className="icon css">
-          <CSS width="72px" alt="CSS Icon" />
+          <div className="tooltip" data-tooltip="CSS">
+            <CSS width="72px" alt="CSS Icon" />
+          </div>
         </div>
         <div className="icon javascript">
-          <JavaScript width="72px" alt="JavaScript Icon" />
+          <div className="tooltip" data-tooltip="JavaScript">
+            <JavaScript width="72px" alt="JavaScript Icon" />
+          </div>
         </div>
         <div className="icon react">
-          <React width="72px" alt="React Icon" />
+          <div className="tooltip" data-tooltip="React">
+            <React width="72px" alt="React Icon" />
+          </div>
         </div>
         <div className="icon bootstrap">
-          <Bootstrap width="72px" alt="Bootstrap Icon" />
+          <div className="tooltip" data-tooltip="Bootstrap">
+            <Bootstrap width="72px" alt="Bootstrap Icon" />
+          </div>
         </div>
         <div className="icon linux">
-          <Linux width="72px" alt="Linux Icon" />
+          <div className="tooltip" data-tooltip="Linux">
+            <Linux width="72px" alt="Linux Icon" />
+          </div>
         </div>
         <div className="icon postgresql">
-          <Postgresql width="72px" alt="Postgresql Icon" />
+          <div className="tooltip" data-tooltip="PostgreSQL">
+            <Postgresql width="72px" alt="Postgresql Icon" />
+          </div>
         </div>
         <div className="icon docker">
-          <Docker width="72px" alt="Docker Icon" />
+          <div className="tooltip" data-tooltip="Docker">
+            <Docker width="72px" alt="Docker Icon" />
+          </div>
         </div>
         <div className="icon csharp">
-          <Csharp width="72px" alt="Csharp Icon" />
+          <div className="tooltip" data-tooltip="C#">
+            <Csharp width="72px" alt="Csharp Icon" />
+          </div>
         </div>
         <div className="icon unity">
-          <Unity width="72px" alt="Unity Icon" />
+          <div className="tooltip" data-tooltip="Unity">
+            <Unity width="72px" alt="Unity Icon" />
+          </div>
         </div>
       </div>
     </div>

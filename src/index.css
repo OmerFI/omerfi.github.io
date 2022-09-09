@@ -377,6 +377,56 @@ footer .divider {
   display: none !important;
 }
 
+.tooltip {
+  position: relative;
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.tooltip::before,
+.tooltip::after {
+  --scale: 0;
+  --arrow-size: 10px;
+  --tooltip-color: #121212;
+  --tooltip-text-color: #cccccc;
+
+  position: absolute;
+  bottom: -0.75rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0))
+    scale(var(--scale));
+  transition: 150ms transform;
+  transform-origin: top center;
+}
+
+.tooltip::before {
+  --translate-y: calc(100% - var(--arrow-size));
+
+  content: attr(data-tooltip);
+  color: var(--tooltip-text-color);
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.3rem;
+  text-align: center;
+  width: max-content;
+  max-width: 100%;
+  background: var(--tooltip-color);
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+  --scale: 1;
+}
+
+.tooltip::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+
+  content: "";
+  border: var(--arrow-size) solid transparent;
+  border-bottom-color: var(--tooltip-color);
+  transform-origin: bottom center;
+}
+
 @media (max-width: 1300px) {
   header {
     padding: 20px 2rem;
