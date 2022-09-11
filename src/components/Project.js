@@ -1,5 +1,7 @@
-import { ReactComponent as Chain} from "../images/link-chain.svg";
-import { ReactComponent as GitHub} from "../images/link-github.svg";
+import { ReactComponent as Chain } from "../images/link-chain.svg";
+import { ReactComponent as GitHub } from "../images/link-github.svg";
+
+import PropTypes from "prop-types";
 
 const Project = ({
   imgSrc,
@@ -49,6 +51,15 @@ const Project = ({
       </div>
     </div>
   );
+};
+
+Project.propTypes = {
+  imgSrc: PropTypes.string.isRequired,
+  projectName: PropTypes.string.isRequired,
+  projectDescription: PropTypes.string.isRequired,
+  projectTechStack: PropTypes.string.isRequired,
+  livePreviewLink: PropTypes.string,
+  viewCodeLink: PropTypes.string,
 };
 
 export default Project;
