@@ -26,7 +26,12 @@ const Project = ({
         <p className="project-name">{projectName}</p>
         <p className="project-description">{projectDescription}</p>
         <p className="project-tech-stack">
-          <span>Tech stack :</span> {projectTechStack}
+          <span className="tech-stack-text">Tech stack:</span>
+          {Array.from(projectTechStack).map((tech, index) => (
+            <span key={index} className="tech">
+              {tech}
+            </span>
+          ))}
         </p>
         <div className="links">
           <a
@@ -57,7 +62,7 @@ Project.propTypes = {
   imgSrc: PropTypes.string.isRequired,
   projectName: PropTypes.string.isRequired,
   projectDescription: PropTypes.string.isRequired,
-  projectTechStack: PropTypes.string.isRequired,
+  projectTechStack: PropTypes.arrayOf(PropTypes.string),
   livePreviewLink: PropTypes.string,
   viewCodeLink: PropTypes.string,
 };

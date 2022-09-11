@@ -191,7 +191,7 @@ main .projects .project {
   box-shadow: 2px 2px 100px rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   width: 21.5rem;
-  height: 31.5rem;
+  height: 32.5rem;
   justify-self: center;
   display: flex;
   flex-direction: column;
@@ -241,11 +241,26 @@ main .projects .project-tech-stack {
   font-weight: 300;
   color: #cccccc;
   font-size: 0.85rem;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 main .projects .project-tech-stack > span {
   font-weight: 400;
   font-size: 0.9rem;
+}
+
+main .projects .project-tech-stack .tech-stack-text {
+  margin-right: 0.2rem;
+}
+
+main .projects .project-tech-stack .tech {
+  margin: 0 0.1rem 0.2rem 0.1rem;
+  background: #cccccc;
+  color: #191919;
+  border-radius: 2px;
+  padding: 0.1rem 0.2rem;
 }
 
 main .projects .links {
