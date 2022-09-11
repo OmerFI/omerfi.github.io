@@ -26,7 +26,6 @@ const Projects = () => {
           imgSrc={domainmonitor}
           projectName="DomainMonitor"
           projectDescription="DomainMonitor is a web project that has a RESTful API to get a domain's subdomains and whois data."
-          // projectTechStack={["JavaScript", "Flask", "Docker", "Nginx", "Swagger UI", "Flask-RESTful"]}
           projectTechStack={["Flask", "Flask-RESTful", "Docker", "Nginx", "Swagger UI"]}
           viewCodeLink="https://github.com/OmerFI/DomainMonitor"
         />
