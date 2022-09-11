@@ -17,7 +17,7 @@ const Projects = () => {
         <Project
           imgSrc={pyforum}
           projectName="PyForum"
-          projectDescription="PyForum is a full-stack web application made using Django on the backend and React on the frontend."
+          projectDescription="PyForum is a full-stack web forum where users can ask questions about Python."
           projectTechStack={["JavaScript", "React", "Django", "Django Rest Framework"]}
           livePreviewLink="https://pyforum.tech/"
           viewCodeLink="https://github.com/OmerFI/PyForum"
