@@ -14,6 +14,7 @@ const Tech = ({ SVG, name, lowercaseName, width }) => {
         data-tooltip={name}
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.9 }}
+        style={{ opacity: 0 }}
         whileInView={{ opacity: [0, 1], transition: { duration: 1 } }}
         viewport={{ once: true }}
       >

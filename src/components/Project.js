@@ -26,6 +26,7 @@ const Project = ({
       whileInView={{ y: [-40, 0], opacity: [0, 1] }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
+      style={{ opacity: 0 }}
     >
       <img src={imgSrc} alt={projectName} />
       <div className="project-details">

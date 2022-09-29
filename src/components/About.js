@@ -8,6 +8,7 @@ const About = () => {
       id="about"
       whileInView={{ y: [-70, 0], opacity: [0, 1] }}
       viewport={{ once: true }}
+      style={{ opacity: 0 }}
     >
       <div className="text">
         <p className="text-part-1">Hi 👋</p>
