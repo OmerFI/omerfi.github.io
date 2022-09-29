@@ -33,7 +33,7 @@ const Projects = () => {
           imgSrc={pyprobs}
           projectName="PyProbs"
           projectDescription="A module that returns True or False output based on given probability."
-          projectTechStack={["Python", "OOP", "Packaging"]}
+          projectTechStack={["Python", "OOP", "Packaging", "Automated Testing", "CI & CD"]}
           livePreviewLink="https://pypi.org/project/pyprobs/"
           viewCodeLink="https://github.com/OmerFI/PyProbs"
         />
