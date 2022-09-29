@@ -1,5 +1,6 @@
 import { ReactComponent as Chain } from "../images/link-chain.svg";
 import { ReactComponent as GitHub } from "../images/link-github.svg";
+import { motion } from "framer-motion";
 
 import PropTypes from "prop-types";
 
@@ -20,7 +21,12 @@ const Project = ({
   const viewCodeClass = viewCodeEnabled ? "view-code" : "view-code disabled";
 
   return (
-    <div className={`project ${projectName}`}>
+    <motion.div
+      className={`project ${projectName}`}
+      whileInView={{ y: [-40, 0], opacity: [0, 1] }}
+      transition={{ duration: 1 }}
+      viewport={{ once: true }}
+    >
       <img src={imgSrc} alt={projectName} />
       <div className="project-details">
         <p className="project-name">{projectName}</p>
@@ -54,7 +60,7 @@ const Project = ({
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
