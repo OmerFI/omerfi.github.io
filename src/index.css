@@ -197,13 +197,15 @@ main .projects .project {
   flex-direction: column;
 }
 
-main .projects .project:nth-of-type(1),
-main .projects .project:nth-of-type(4) {
+main .projects .project:nth-of-type(3n + 2) {
+  justify-self: center;
+}
+
+main .projects .project:nth-of-type(3n + 1) {
   justify-self: end;
 }
 
-main .projects .project:nth-of-type(3),
-main .projects .project:nth-of-type(6) {
+main .projects .project:nth-of-type(3n) {
   justify-self: start;
 }
 
