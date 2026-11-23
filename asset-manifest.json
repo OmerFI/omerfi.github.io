@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.322f5d5e.css",
-    "main.js": "/static/js/main.09ac917c.js",
+    "main.css": "/static/css/main.6ece0c87.css",
+    "main.js": "/static/js/main.a4774d9d.js",
     "static/media/linux.svg": "/static/media/linux.0cb7bf4e5cb9ed5e2333d50935fad3d4.svg",
     "static/media/dedektistanbul.png": "/static/media/dedektistanbul.d6461de5b15ac2bc0959.png",
     "static/media/pyflappy.png": "/static/media/pyflappy.bca429e7cecd070dd5f2.png",
@@ -24,12 +24,12 @@
     "static/media/csharp.svg": "/static/media/csharp.4b8080ff785d7bd4f1b95178568e9ba1.svg",
     "static/media/css.svg": "/static/media/css.39769a8bd378bf410d6b381a8d88fa35.svg",
     "static/media/html.svg": "/static/media/html.8664168d5bc90b1a24396f85aadbf623.svg",
-    "static/media/header-icon.svg": "/static/media/header-icon.f6110e238c476a04129a289d94d5aafa.svg",
-    "main.322f5d5e.css.map": "/static/css/main.322f5d5e.css.map",
-    "main.09ac917c.js.map": "/static/js/main.09ac917c.js.map"
+    "static/media/header-icon.svg": "/static/media/header-icon.f0195b315c605484d0c2fe157995bca5.svg",
+    "main.6ece0c87.css.map": "/static/css/main.6ece0c87.css.map",
+    "main.a4774d9d.js.map": "/static/js/main.a4774d9d.js.map"
   },
   "entrypoints": [
-    "static/css/main.322f5d5e.css",
-    "static/js/main.09ac917c.js"
+    "static/css/main.6ece0c87.css",
+    "static/js/main.a4774d9d.js"
   ]
 }
