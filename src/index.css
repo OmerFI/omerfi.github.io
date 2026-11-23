@@ -314,18 +314,8 @@ footer .contact img.logo {
   height: 2.5rem;
 }
 
-footer .contact .mail {
+footer .contact .nav-icons {
   margin-left: auto;
-  margin-right: 2rem;
-  text-decoration: none;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 400;
-  color: #a7a7a7;
-  transition: 250ms ease;
-}
-
-footer .contact .mail:hover {
-  color: #cccccc;
 }
 
 footer .contact .nav-icons a {
@@ -534,29 +524,6 @@ footer .divider {
   main .projects .project:nth-of-type(4),
   main .projects .project:nth-of-type(6) {
     justify-self: center;
-  }
-
-  footer .contact {
-    display: grid;
-    grid-template-areas:
-      "logo mail"
-      "logo nav-icons";
-  }
-
-  footer .contact .logo-a {
-    grid-area: logo;
-  }
-
-  footer .contact .mail {
-    margin-right: 0;
-    grid-area: mail;
-  }
-
-  footer .contact .nav-icons {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 0.5rem;
-    grid-area: nav-icons;
   }
 
   footer .contact .nav-icons a {

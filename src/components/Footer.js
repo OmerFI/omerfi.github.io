@@ -8,7 +8,6 @@ const Footer = () => {
           
         <img src={logo} className="logo" alt="logo" />
         </a>
-        <a href="mailto:omerfi@pyforum.tech" className="mail">omerfi@pyforum.tech</a>
         <div className="nav-icons">
           <a
             href="https://github.com/OmerFI"
