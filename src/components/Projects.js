@@ -19,7 +19,6 @@ const Projects = () => {
           projectName="PyForum"
           projectDescription="PyForum is a full-stack web forum where users can ask questions about Python."
           projectTechStack={["JavaScript", "React", "Django", "Django Rest Framework"]}
-          livePreviewLink="https://pyforum.tech/"
           viewCodeLink="https://github.com/OmerFI/PyForum"
         />
         <Project
